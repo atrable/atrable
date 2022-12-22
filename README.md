@@ -1,6 +1,6 @@
 # [Atrable](https://www.atrable.com)
 
-### Record your stories on Atrable
+### Your actual stories
 
 <img src=https://user-images.githubusercontent.com/60294318/194782775-f09f755c-f164-4967-9af6-ee323f7cae2c.png width=200></img>
 <img src=https://user-images.githubusercontent.com/60294318/194782785-9a6a9dec-77f6-4d4f-8e32-6dfafb5d43b9.png width=200></img>
