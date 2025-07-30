@@ -31,7 +31,7 @@ body:
   - type: dropdown
     id: feature-category
     attributes:
-      label: What part of the platform does this bug relate to?
+      label: What part of Atrable does this bug relate to?
       options:
         - Authentication
         - Diary
