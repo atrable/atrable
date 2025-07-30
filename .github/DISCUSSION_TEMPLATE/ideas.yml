@@ -1,0 +1,40 @@
+name: 💡 Feature Request
+description: Share ideas for new features
+title: "[Idea] "
+labels: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 Disclaimer
+        By sharing your ideas in this discussion forum, you grant Atrable the right to use, modify, and implement your suggestions without any expectation of financial compensation.  
+        You may request attribution, and if your idea is incorporated into the product, we will gladly credit you on our product page or other appropriate channels.
+
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: Describe your idea
+      description: Provide a detailed description of the feature you’re suggesting. Feel free to include user stories, pain points it solves, or any context that would help us understand your vision.
+      placeholder: "Example: I think Atrable should allow users to reply to diary entries to foster more engagement between friends..."
+    validations:
+      required: true
+
+  - type: input
+    id: image-upload-link
+    attributes:
+      label: Image (optional)
+      description: Upload an image or mockup via an image hosting service (e.g., Imgur, Dropbox, etc.), then paste the link here.
+      placeholder: "https://i.imgur.com/example.png"
+
+  - type: dropdown
+    id: feature-category
+    attributes:
+      label: What part of the platform does this idea relate to?
+      options:
+        - Authentication
+        - Diary
+        - Chat
+        - Something else
+    validations:
+      required: true
