@@ -1,7 +1,5 @@
-name: 💡 Feature Request
-description: Share ideas for new features
 title: "[Idea] "
-labels: ""
+labels: []
 
 body:
   - type: markdown
