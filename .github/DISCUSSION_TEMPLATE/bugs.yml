@@ -1,0 +1,76 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚠️ Disclaimer
+        Thanks for helping us improve Atrable!  
+        We actively monitor bugs using **Firebase Crashlytics**, which automatically reports crashes and errors.  
+        Your report helps us better understand what Crashlytics can’t catch and allows us to reach out if we need more context to resolve the issue.  
+        By submitting this report, you agree that your content may be used to help us diagnose and resolve issues in the app.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: What platform are you experiencing this issue on?
+      options:
+        - Android
+        - iOS
+      multiple: true
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Version
+      description: Enter the version of Android or iOS you are using (e.g., iOS 17.4.1, Android 14).
+      placeholder: "iOS 17.4.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature-category
+    attributes:
+      label: What part of the platform does this bug relate to?
+      options:
+        - Authentication
+        - Diary
+        - Chat
+        - Something else
+      multiple: true
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce the bug
+      description: Please describe the exact steps we can follow to reproduce the issue.
+      placeholder: |
+        1. Open the app
+        2. Tap on '+'
+        3. Write a post and try to save
+        4. App crashes or shows an error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: How do you think this can be fixed? (optional)
+      description: If you have any insight into what might be going wrong or how it could be resolved, please share!
+      placeholder: "Maybe the post isn’t saved locally before upload? Could be a write conflict in the database."
+
+  - type: input
+    id: media-link
+    attributes:
+      label: Image or Video (optional)
+      description: Upload a screenshot or screen recording to an image/video hosting service (e.g., Google Drive, Imgur, Dropbox, etc) and paste the link here. Make sure it's open to anyone with the link.
+      placeholder: "https://i.imgur.com/example.mp4"
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Anything else?
+      description: Include logs, device model, app version, or anything else you think might help us.
+      placeholder: "Using iPhone 13, app version 10.11.12 from TestFlight"
