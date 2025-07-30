@@ -2,7 +2,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🚨 Disclaimer
+        ## ⚠️ Disclaimer
         By sharing your ideas in this discussion forum, you grant Atrable the right to use, modify, and implement your suggestions without any expectation of financial compensation.  
         You may request attribution, and if your idea is incorporated into the product, we will gladly credit you on our feature page or other appropriate channels.
 
