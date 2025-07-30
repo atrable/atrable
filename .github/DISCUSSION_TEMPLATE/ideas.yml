@@ -19,7 +19,7 @@ body:
     id: image-upload-link
     attributes:
       label: Image (optional)
-      description: Upload an image or mockup via an image hosting service (e.g., Imgur, Dropbox, etc.), then paste the link here.
+      description: Upload an image or mockup via an image hosting service (e.g., Google Drive Imgur, Dropbox, etc.), then paste the link here. Make sure it's open to anyone with the link.
       placeholder: "https://i.imgur.com/example.png"
 
   - type: dropdown
