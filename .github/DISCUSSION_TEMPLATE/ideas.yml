@@ -31,6 +31,6 @@ body:
         - Diary
         - Chat
         - Something else
-    multiple: true
+      multiple: true
     validations:
       required: true
